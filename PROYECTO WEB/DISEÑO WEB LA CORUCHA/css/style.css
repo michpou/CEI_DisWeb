@@ -1,0 +1,107 @@
+
+/* Estilos nav */
+nav div ul li a{
+    color: rgb(63, 49, 34) !important;
+}
+nav div ul li a:hover{
+    color: rgb(141, 117, 89) !important;
+}
+/* Estilos header */
+header{
+    margin-bottom: 5%;
+}
+
+/* Estilos card */
+.card{
+    margin: 5%;
+}
+.card-text{
+    color: rgb(63, 49, 34);
+}
+
+/* Estilos Formulario */
+
+.form{
+    display: flex;
+    margin: 5%;
+    justify-content: center;
+    padding: 5%;
+    background-color: #eeeeeb;
+    /* border: thin solid rgb(63, 49, 34); */
+}
+
+section div form{
+    color: rgb(63, 49, 34);
+    
+}
+section div form input{
+    color: rgb(63, 49, 34);
+}
+
+/* Estilos footer */
+
+footer{
+    display: flex;
+    background-color: #eeeeeb;
+}
+/* ICONO EMAIL */
+
+.email img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/sprite-contacto2.png);
+    background-position: -18px 133px;
+    border-radius: 50px;
+    border: solid thin rgb(61, 35, 35);
+}
+.email h5{
+    margin: 5px 5px 0px 0px;
+}
+/* ICONO LOCATION */
+.location img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/sprite-contacto2.png);
+    background-position: 65px 133px;
+    border-radius: 50px;
+    border: solid thin rgb(61, 35, 35);
+}
+.location h5{
+    margin: 5px 5px 0px 0px;
+}
+/* ICONO PHONE */
+.phone img{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/sprite-contacto2.png);
+    background-position: -182px 133px;
+    border-radius: 50px;
+    border: solid thin rgb(61, 35, 35);
+}
+.phone h5{
+    margin: 5px 5px 0px 0px;
+}
+
+/* Estilos son para Small devices */
+@media screen and(min-width: 576px){
+    
+}
+/* Estilos son para Medium devices */
+@media screen and(min-width: 768px){
+
+}
+/* Estilos son para Large devices */
+@media screen and(min-width: 992px){
+    
+}
+/* Estilos son para Xlarge devices */
+@media screen and(min-width: 1200px){
+    
+}
+/* Estilos son para XXlarge devices */
+@media screen and(min-width: 1400px){
+    
+}
